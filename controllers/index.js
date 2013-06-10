@@ -31,6 +31,7 @@ exports.initMiddleware = function(app, app_name, model_name)
                 obj = obj || {};
                 obj.page = app_name;  // legacy naming from Webmaker layout
                 obj.view = page;
+                obj.csrf = req.session._csrf;
                 return res.render(app_name+'/'+page+'.html', obj);
             }
             var isError = code >= 400;
