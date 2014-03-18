@@ -3,6 +3,9 @@ webmaker-events
 
 Pluggable events app for Mozilla Webmaker
 
+## *NOTE:* Webmaker has moved to a new Events platform.
+New Repo: http://github.com/mozilla/webmaker-events-2
+
 
 Integrating into Webmaker
 -------------------------
